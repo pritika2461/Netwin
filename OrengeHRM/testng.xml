@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="10">
+  <test thread-count="5" name="OrengeHRM">
+    <classes>
+		<class name="OrengeHRM.LoginPage"/>
+		<class name="OrengeHRM.UserProfile"/>
+		<class name="OrengeHRM.CommonOptions"/>
+		<class name="OrengeHRM.AdminModule"/>
+		<class name="OrengeHRM.PIMModule"/>
+		<class name="OrengeHRM.LeaveModule"/>
+        <class name="OrengeHRM.TimeModule"/>
+        <class name="OrengeHRM.RecritementModule"/>
+        <class name="OrengeHRM.MyInfoModule"/>
+        <class name="OrengeHRM.PerformanceModule"/>
+        <class name="OrengeHRM.DirectoryModule"/>
+        <class name="OrengeHRM.MaintainceModule"/>
+        <class name="OrengeHRM.ClaimModule"/>
+        <class name="OrengeHRM.BuzzModule"/>
+    </classes>
+  </test> <!-- OrengeHRM -->
+</suite> <!-- Suite -->
