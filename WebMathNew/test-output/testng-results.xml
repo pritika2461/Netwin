@@ -1,0 +1,2820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="87" passed="80" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-06T13:31:59 IST" name="Suite" finished-at="2023-09-06T13:55:08 IST" duration-ms="1388605">
+    <groups>
+    </groups>
+    <test started-at="2023-09-06T13:31:59 IST" name="Test" finished-at="2023-09-06T13:55:08 IST" duration-ms="1388605">
+      <class name="netwin.WebMathNew.AboutUsPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.AboutUsPage@4f6f416f]" started-at="2023-09-06T13:51:30 IST" name="beforeMethod" finished-at="2023-09-06T13:51:38 IST" duration-ms="8026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="aboutUs()[pri:0, instance:netwin.WebMathNew.AboutUsPage@4f6f416f]" started-at="2023-09-06T13:51:38 IST" name="aboutUs" finished-at="2023-09-06T13:51:40 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.AboutUsPage@4f6f416f]" started-at="2023-09-06T13:51:40 IST" name="close" finished-at="2023-09-06T13:51:45 IST" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.AboutUsPage -->
+      <class name="netwin.WebMathNew.StudentPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:44:55 IST" name="beforeMethod" finished-at="2023-09-06T13:45:02 IST" duration-ms="6662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="student()[pri:1, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:02 IST" name="student" finished-at="2023-09-06T13:45:03 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:03 IST" name="close" finished-at="2023-09-06T13:45:08 IST" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:08 IST" name="beforeMethod" finished-at="2023-09-06T13:45:15 IST" duration-ms="6621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_services()[pri:2, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:15 IST" name="stud_services" finished-at="2023-09-06T13:45:17 IST" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_services -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:17 IST" name="close" finished-at="2023-09-06T13:45:22 IST" duration-ms="5346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:22 IST" name="beforeMethod" finished-at="2023-09-06T13:45:29 IST" duration-ms="6562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:29 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:45:30 IST" duration-ms="1406" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at netwin.WebMathNew.StudentPage.stud_find_tutor(StudentPage.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:30 IST" name="close" finished-at="2023-09-06T13:45:35 IST" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:35 IST" name="beforeMethod" finished-at="2023-09-06T13:45:42 IST" duration-ms="6340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:42 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:45:45 IST" duration-ms="2850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4424]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:45 IST" name="close" finished-at="2023-09-06T13:45:50 IST" duration-ms="5379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:50 IST" name="beforeMethod" finished-at="2023-09-06T13:45:57 IST" duration-ms="6526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:57 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:45:59 IST" duration-ms="2439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kalyani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nashik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4424]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:45:59 IST" name="close" finished-at="2023-09-06T13:46:04 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:04 IST" name="beforeMethod" finished-at="2023-09-06T13:46:11 IST" duration-ms="6892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:11 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:46:14 IST" duration-ms="2797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shraddha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:14 IST" name="close" finished-at="2023-09-06T13:46:19 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:19 IST" name="beforeMethod" finished-at="2023-09-06T13:46:26 IST" duration-ms="6394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:26 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:46:29 IST" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nashik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:29 IST" name="close" finished-at="2023-09-06T13:46:34 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:34 IST" name="beforeMethod" finished-at="2023-09-06T13:46:41 IST" duration-ms="6805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:41 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:46:43 IST" duration-ms="2499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Devyani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nashik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4424]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:43 IST" name="close" finished-at="2023-09-06T13:46:49 IST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:49 IST" name="beforeMethod" finished-at="2023-09-06T13:46:55 IST" duration-ms="6669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:55 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:46:58 IST" duration-ms="2406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kalyani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nashik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4424]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:46:58 IST" name="close" finished-at="2023-09-06T13:47:03 IST" duration-ms="5422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:03 IST" name="beforeMethod" finished-at="2023-09-06T13:47:10 IST" duration-ms="6830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:10 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:47:13 IST" duration-ms="2588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:13 IST" name="close" finished-at="2023-09-06T13:47:18 IST" duration-ms="5369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:18 IST" name="beforeMethod" finished-at="2023-09-06T13:47:26 IST" duration-ms="7710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_find_tutor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:26 IST" name="stud_find_tutor" data-provider="tutor" finished-at="2023-09-06T13:47:28 IST" duration-ms="2612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[adsda]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_find_tutor -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:28 IST" name="close" finished-at="2023-09-06T13:47:34 IST" duration-ms="5338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:34 IST" name="beforeMethod" finished-at="2023-09-06T13:47:40 IST" duration-ms="6467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="stud_resources()[pri:4, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:40 IST" name="stud_resources" finished-at="2023-09-06T13:47:42 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stud_resources -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.StudentPage@176b75f7]" started-at="2023-09-06T13:47:42 IST" name="close" finished-at="2023-09-06T13:47:47 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.StudentPage -->
+      <class name="netwin.WebMathNew.ResourcesPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ResourcesPage@409c54f]" started-at="2023-09-06T13:51:00 IST" name="beforeMethod" finished-at="2023-09-06T13:51:07 IST" duration-ms="6675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="resouces()[pri:1, instance:netwin.WebMathNew.ResourcesPage@409c54f]" started-at="2023-09-06T13:51:07 IST" name="resouces" finished-at="2023-09-06T13:51:08 IST" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resouces -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ResourcesPage@409c54f]" started-at="2023-09-06T13:51:08 IST" name="close" finished-at="2023-09-06T13:51:14 IST" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.ResourcesPage -->
+      <class name="netwin.WebMathNew.HomePage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:31:59 IST" name="beforeMethod" finished-at="2023-09-06T13:32:09 IST" duration-ms="9618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="courosal()[pri:1, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:09 IST" name="courosal" finished-at="2023-09-06T13:32:09 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- courosal -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:09 IST" name="close" finished-at="2023-09-06T13:32:14 IST" duration-ms="5357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:14 IST" name="beforeMethod" finished-at="2023-09-06T13:32:22 IST" duration-ms="7777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="header()[pri:1, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:22 IST" name="header" finished-at="2023-09-06T13:32:27 IST" duration-ms="4820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:27 IST" name="close" finished-at="2023-09-06T13:32:32 IST" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:33 IST" name="beforeMethod" finished-at="2023-09-06T13:32:40 IST" duration-ms="7274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:40 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:32:41 IST" duration-ms="134" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at netwin.WebMathNew.HomePage.searchInput(HomePage.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:41 IST" name="close" finished-at="2023-09-06T13:32:46 IST" duration-ms="5380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:46 IST" name="beforeMethod" finished-at="2023-09-06T13:32:53 IST" duration-ms="7009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:53 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:32:58 IST" duration-ms="5314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[about ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:32:58 IST" name="close" finished-at="2023-09-06T13:33:04 IST" duration-ms="5427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:04 IST" name="beforeMethod" finished-at="2023-09-06T13:33:11 IST" duration-ms="7175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:11 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:33:15 IST" duration-ms="4408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[contact]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:15 IST" name="close" finished-at="2023-09-06T13:33:21 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:21 IST" name="beforeMethod" finished-at="2023-09-06T13:33:28 IST" duration-ms="7316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:28 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:33:32 IST" duration-ms="3768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:32 IST" name="close" finished-at="2023-09-06T13:33:37 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:37 IST" name="beforeMethod" finished-at="2023-09-06T13:33:44 IST" duration-ms="7054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:44 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:33:48 IST" duration-ms="3809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:48 IST" name="close" finished-at="2023-09-06T13:33:53 IST" duration-ms="5371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:33:53 IST" name="beforeMethod" finished-at="2023-09-06T13:34:01 IST" duration-ms="7206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:01 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:34:05 IST" duration-ms="4747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4t43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:05 IST" name="close" finished-at="2023-09-06T13:34:11 IST" duration-ms="5483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:11 IST" name="beforeMethod" finished-at="2023-09-06T13:34:23 IST" duration-ms="12089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:23 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:34:28 IST" duration-ms="5551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:28 IST" name="close" finished-at="2023-09-06T13:34:34 IST" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:34 IST" name="beforeMethod" finished-at="2023-09-06T13:34:41 IST" duration-ms="7049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:41 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:34:45 IST" duration-ms="3881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:45 IST" name="close" finished-at="2023-09-06T13:34:50 IST" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:50 IST" name="beforeMethod" finished-at="2023-09-06T13:34:59 IST" duration-ms="9212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchInput(java.lang.String)[pri:2, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:34:59 IST" name="searchInput" data-provider="header" finished-at="2023-09-06T13:35:04 IST" duration-ms="4300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInput -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:04 IST" name="close" finished-at="2023-09-06T13:35:09 IST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:09 IST" name="beforeMethod" finished-at="2023-09-06T13:35:16 IST" duration-ms="7300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="header2()[pri:3, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:16 IST" name="header2" finished-at="2023-09-06T13:35:20 IST" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- header2 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:20 IST" name="close" finished-at="2023-09-06T13:35:25 IST" duration-ms="5511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:25 IST" name="beforeMethod" finished-at="2023-09-06T13:35:32 IST" duration-ms="6731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homeNews()[pri:4, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:32 IST" name="homeNews" finished-at="2023-09-06T13:35:36 IST" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeNews -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:36 IST" name="close" finished-at="2023-09-06T13:35:41 IST" duration-ms="5388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:41 IST" name="beforeMethod" finished-at="2023-09-06T13:35:49 IST" duration-ms="7691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homeEvent()[pri:5, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:49 IST" name="homeEvent" finished-at="2023-09-06T13:35:54 IST" duration-ms="4347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeEvent -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:54 IST" name="close" finished-at="2023-09-06T13:35:59 IST" duration-ms="5442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:35:59 IST" name="beforeMethod" finished-at="2023-09-06T13:36:07 IST" duration-ms="8212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homeServices()[pri:6, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:36:07 IST" name="homeServices" finished-at="2023-09-06T13:36:09 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeServices -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:36:09 IST" name="close" finished-at="2023-09-06T13:36:14 IST" duration-ms="5378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:36:14 IST" name="beforeMethod" finished-at="2023-09-06T13:36:22 IST" duration-ms="8105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="recentNews()[pri:7, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:36:22 IST" name="recentNews" finished-at="2023-09-06T13:36:25 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recentNews -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:36:25 IST" name="close" finished-at="2023-09-06T13:36:30 IST" duration-ms="5319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:36:30 IST" name="beforeMethod" finished-at="2023-09-06T13:36:38 IST" duration-ms="7850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="sponsers()[pri:8, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:36:38 IST" name="sponsers" finished-at="2023-09-06T13:37:08 IST" duration-ms="30432" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c73d579a9af6993002f74ca7ef108fa1, clickElement {id=9A0D3F51131E5710DF610310CA0F9098_element_88}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRITIK~1.SOM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51490/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c73d579a9af6993002f74ca7ef108fa1)] -> xpath: //*[@id="wrapper"]/div[8]/div/div/div/div[2]/div[15]/div/div/a/img]
+Session ID: c73d579a9af6993002f74ca7ef108fa1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c73d579a9af6993002f74ca7ef108fa1, clickElement {id=9A0D3F51131E5710DF610310CA0F9098_element_88}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRITIK~1.SOM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51490/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c73d579a9af6993002f74ca7ef108fa1)] -> xpath: //*[@id="wrapper"]/div[8]/div/div/div/div[2]/div[15]/div/div/a/img]
+Session ID: c73d579a9af6993002f74ca7ef108fa1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at netwin.WebMathNew.HomePage.sponsers(HomePage.java:117)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sponsers -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.HomePage@16b2bb0c]" started-at="2023-09-06T13:37:08 IST" name="close" finished-at="2023-09-06T13:37:14 IST" duration-ms="5371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.HomePage -->
+      <class name="netwin.WebMathNew.SkillsForSucessPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:47:47 IST" name="beforeMethod" finished-at="2023-09-06T13:47:54 IST" duration-ms="7266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="skillsForSucess()[pri:1, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:47:54 IST" name="skillsForSucess" finished-at="2023-09-06T13:47:56 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillsForSucess -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:47:56 IST" name="close" finished-at="2023-09-06T13:48:01 IST" duration-ms="5356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:01 IST" name="beforeMethod" finished-at="2023-09-06T13:48:08 IST" duration-ms="7073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="writingSkills()[pri:2, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:08 IST" name="writingSkills" finished-at="2023-09-06T13:48:10 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writingSkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:10 IST" name="close" finished-at="2023-09-06T13:48:15 IST" duration-ms="5381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:15 IST" name="beforeMethod" finished-at="2023-09-06T13:48:22 IST" duration-ms="6759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="readingSkills()[pri:3, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:22 IST" name="readingSkills" finished-at="2023-09-06T13:48:24 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingSkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:24 IST" name="close" finished-at="2023-09-06T13:48:29 IST" duration-ms="5371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:29 IST" name="beforeMethod" finished-at="2023-09-06T13:48:36 IST" duration-ms="6848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="digitalSkills()[pri:4, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:36 IST" name="digitalSkills" finished-at="2023-09-06T13:48:37 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- digitalSkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:37 IST" name="close" finished-at="2023-09-06T13:48:43 IST" duration-ms="5405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:43 IST" name="beforeMethod" finished-at="2023-09-06T13:48:49 IST" duration-ms="6721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="problemSolvingSkills()[pri:5, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:49 IST" name="problemSolvingSkills" finished-at="2023-09-06T13:48:51 IST" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- problemSolvingSkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:51 IST" name="close" finished-at="2023-09-06T13:48:56 IST" duration-ms="5363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:48:56 IST" name="beforeMethod" finished-at="2023-09-06T13:49:03 IST" duration-ms="6794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="communicationSkills()[pri:6, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:03 IST" name="communicationSkills" finished-at="2023-09-06T13:49:05 IST" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- communicationSkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:05 IST" name="close" finished-at="2023-09-06T13:49:10 IST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:10 IST" name="beforeMethod" finished-at="2023-09-06T13:49:17 IST" duration-ms="7174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="numeracySkills()[pri:7, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:17 IST" name="numeracySkills" finished-at="2023-09-06T13:49:19 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numeracySkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:19 IST" name="close" finished-at="2023-09-06T13:49:24 IST" duration-ms="5381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:24 IST" name="beforeMethod" finished-at="2023-09-06T13:49:41 IST" duration-ms="17313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="creativitySkills()[pri:8, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:41 IST" name="creativitySkills" finished-at="2023-09-06T13:49:43 IST" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creativitySkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:43 IST" name="close" finished-at="2023-09-06T13:49:48 IST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:48 IST" name="beforeMethod" finished-at="2023-09-06T13:49:57 IST" duration-ms="8904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="collabrationSkills()[pri:9, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:57 IST" name="collabrationSkills" finished-at="2023-09-06T13:49:59 IST" duration-ms="1793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collabrationSkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:49:59 IST" name="close" finished-at="2023-09-06T13:50:05 IST" duration-ms="6188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:05 IST" name="beforeMethod" finished-at="2023-09-06T13:50:12 IST" duration-ms="6800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="adaptibilitySkills()[pri:10, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:12 IST" name="adaptibilitySkills" finished-at="2023-09-06T13:50:14 IST" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adaptibilitySkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:14 IST" name="close" finished-at="2023-09-06T13:50:19 IST" duration-ms="5380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:19 IST" name="beforeMethod" finished-at="2023-09-06T13:50:26 IST" duration-ms="6631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="upSkillsSkills()[pri:11, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:26 IST" name="upSkillsSkills" finished-at="2023-09-06T13:50:27 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upSkillsSkills -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:27 IST" name="close" finished-at="2023-09-06T13:50:33 IST" duration-ms="5381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:33 IST" name="beforeMethod" finished-at="2023-09-06T13:50:39 IST" duration-ms="6729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="skillsForLifeSeries()[pri:12, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:39 IST" name="skillsForLifeSeries" finished-at="2023-09-06T13:50:41 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillsForLifeSeries -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:41 IST" name="close" finished-at="2023-09-06T13:50:46 IST" duration-ms="5388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:46 IST" name="beforeMethod" finished-at="2023-09-06T13:50:53 IST" duration-ms="6769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="jobSearchResouces()[pri:13, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:53 IST" name="jobSearchResouces" finished-at="2023-09-06T13:50:55 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobSearchResouces -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.SkillsForSucessPage@5965be2d]" started-at="2023-09-06T13:50:55 IST" name="close" finished-at="2023-09-06T13:51:00 IST" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.SkillsForSucessPage -->
+      <class name="netwin.WebMathNew.VolunteerPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:37:14 IST" name="beforeMethod" finished-at="2023-09-06T13:37:21 IST" duration-ms="7157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_info()[pri:1, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:37:21 IST" name="volunteer_info" finished-at="2023-09-06T13:37:52 IST" duration-ms="31282" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b0d8b779890c7d6ac78fe4ad26f64cf8, clickElement {id=3C965A4C148B17EACA1A590C4002941C_element_87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRITIK~1.SOM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51566/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b0d8b779890c7d6ac78fe4ad26f64cf8)] -> xpath: //*[@id="menu-item-296"]]
+Session ID: b0d8b779890c7d6ac78fe4ad26f64cf8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b0d8b779890c7d6ac78fe4ad26f64cf8, clickElement {id=3C965A4C148B17EACA1A590C4002941C_element_87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PRITIK~1.SOM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51566/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b0d8b779890c7d6ac78fe4ad26f64cf8)] -> xpath: //*[@id="menu-item-296"]]
+Session ID: b0d8b779890c7d6ac78fe4ad26f64cf8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at netwin.WebMathNew.VolunteerPage.volunteer_info(VolunteerPage.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_info -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:37:52 IST" name="close" finished-at="2023-09-06T13:37:57 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:37:57 IST" name="beforeMethod" finished-at="2023-09-06T13:38:04 IST" duration-ms="6901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_tle()[pri:2, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:04 IST" name="volunteer_tle" finished-at="2023-09-06T13:38:07 IST" duration-ms="2650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_tle -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:07 IST" name="close" finished-at="2023-09-06T13:38:12 IST" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:12 IST" name="beforeMethod" finished-at="2023-09-06T13:38:19 IST" duration-ms="6414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_pos()[pri:3, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:19 IST" name="volunteer_pos" finished-at="2023-09-06T13:38:22 IST" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_pos -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:22 IST" name="close" finished-at="2023-09-06T13:38:27 IST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:27 IST" name="beforeMethod" finished-at="2023-09-06T13:38:34 IST" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_tutoring()[pri:4, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:34 IST" name="volunteer_tutoring" finished-at="2023-09-06T13:38:37 IST" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_tutoring -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:37 IST" name="close" finished-at="2023-09-06T13:38:42 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:42 IST" name="beforeMethod" finished-at="2023-09-06T13:38:49 IST" duration-ms="6841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:49 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:38:52 IST" duration-ms="2889" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at netwin.WebMathNew.VolunteerPage.volunteer_training(VolunteerPage.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:52 IST" name="close" finished-at="2023-09-06T13:38:57 IST" duration-ms="5409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:38:57 IST" name="beforeMethod" finished-at="2023-09-06T13:39:04 IST" duration-ms="6926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:04 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:39:08 IST" duration-ms="3746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:08 IST" name="close" finished-at="2023-09-06T13:39:13 IST" duration-ms="5383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:13 IST" name="beforeMethod" finished-at="2023-09-06T13:39:20 IST" duration-ms="6860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:20 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:39:24 IST" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharda@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:24 IST" name="close" finished-at="2023-09-06T13:39:29 IST" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:29 IST" name="beforeMethod" finished-at="2023-09-06T13:39:36 IST" duration-ms="6896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:36 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:39:39 IST" duration-ms="3462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[323]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:39 IST" name="close" finished-at="2023-09-06T13:39:45 IST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:45 IST" name="beforeMethod" finished-at="2023-09-06T13:39:51 IST" duration-ms="6615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:51 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:39:54 IST" duration-ms="3124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdf43424]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2342]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:39:54 IST" name="close" finished-at="2023-09-06T13:40:00 IST" duration-ms="5413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:00 IST" name="beforeMethod" finished-at="2023-09-06T13:40:06 IST" duration-ms="6521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:06 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:40:10 IST" duration-ms="3536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:10 IST" name="close" finished-at="2023-09-06T13:40:15 IST" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:15 IST" name="beforeMethod" finished-at="2023-09-06T13:40:22 IST" duration-ms="6713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:22 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:40:26 IST" duration-ms="3611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:26 IST" name="close" finished-at="2023-09-06T13:40:31 IST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:31 IST" name="beforeMethod" finished-at="2023-09-06T13:40:37 IST" duration-ms="6404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:37 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:40:41 IST" duration-ms="3380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc#$gmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7676587]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:41 IST" name="close" finished-at="2023-09-06T13:40:46 IST" duration-ms="5418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:46 IST" name="beforeMethod" finished-at="2023-09-06T13:40:53 IST" duration-ms="6846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:53 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:40:56 IST" duration-ms="3222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ewdrwr3434]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32@gmail.com12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:40:56 IST" name="close" finished-at="2023-09-06T13:41:02 IST" duration-ms="5397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:02 IST" name="beforeMethod" finished-at="2023-09-06T13:41:09 IST" duration-ms="6824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:09 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:41:12 IST" duration-ms="3725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[were23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:12 IST" name="close" finished-at="2023-09-06T13:41:18 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:18 IST" name="beforeMethod" finished-at="2023-09-06T13:41:25 IST" duration-ms="6996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_training(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:25 IST" name="volunteer_training" data-provider="vl_training" finished-at="2023-09-06T13:41:29 IST" duration-ms="3858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pritika ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_training -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:29 IST" name="close" finished-at="2023-09-06T13:41:34 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:34 IST" name="beforeMethod" finished-at="2023-09-06T13:41:41 IST" duration-ms="6640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_services()[pri:6, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:41 IST" name="volunteer_services" finished-at="2023-09-06T13:41:44 IST" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_services -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:44 IST" name="close" finished-at="2023-09-06T13:41:49 IST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:49 IST" name="beforeMethod" finished-at="2023-09-06T13:41:56 IST" duration-ms="6654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="volunteer_opportuniy()[pri:7, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:56 IST" name="volunteer_opportuniy" finished-at="2023-09-06T13:41:59 IST" duration-ms="2863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volunteer_opportuniy -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:41:59 IST" name="close" finished-at="2023-09-06T13:42:04 IST" duration-ms="5366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:04 IST" name="beforeMethod" finished-at="2023-09-06T13:42:11 IST" duration-ms="6732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:11 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:42:13 IST" duration-ms="1911" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+            <param index="10">
+              <value is-null="true"/>
+            </param>
+            <param index="11">
+              <value is-null="true"/>
+            </param>
+            <param index="12">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at netwin.WebMathNew.VolunteerPage.want_to_be_vl(VolunteerPage.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:13 IST" name="close" finished-at="2023-09-06T13:42:18 IST" duration-ms="5353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:18 IST" name="beforeMethod" finished-at="2023-09-06T13:42:25 IST" duration-ms="6983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:25 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:42:29 IST" duration-ms="3553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[netwin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[-619906.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[java, python]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[pritika12@linkedin.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Abhi]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[57575]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[brother]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:29 IST" name="close" finished-at="2023-09-06T13:42:34 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:34 IST" name="beforeMethod" finished-at="2023-09-06T13:42:41 IST" duration-ms="6668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:41 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:42:44 IST" duration-ms="3520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10/02/12]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[java, python]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[34543]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:44 IST" name="close" finished-at="2023-09-06T13:42:49 IST" duration-ms="5387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:49 IST" name="beforeMethod" finished-at="2023-09-06T13:42:56 IST" duration-ms="6806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:42:56 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:43:00 IST" duration-ms="3293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[CPP]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[pritika12@linkedin.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:00 IST" name="close" finished-at="2023-09-06T13:43:05 IST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:05 IST" name="beforeMethod" finished-at="2023-09-06T13:43:12 IST" duration-ms="6960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:12 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:43:15 IST" duration-ms="3372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chinmay]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5333]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[mother]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:15 IST" name="close" finished-at="2023-09-06T13:43:21 IST" duration-ms="5366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:21 IST" name="beforeMethod" finished-at="2023-09-06T13:43:27 IST" duration-ms="6587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:27 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:43:30 IST" duration-ms="3041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[wer43]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:30 IST" name="close" finished-at="2023-09-06T13:43:36 IST" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:36 IST" name="beforeMethod" finished-at="2023-09-06T13:43:43 IST" duration-ms="6959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:43 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:43:46 IST" duration-ms="3451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[developer]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:46 IST" name="close" finished-at="2023-09-06T13:43:51 IST" duration-ms="5401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:51 IST" name="beforeMethod" finished-at="2023-09-06T13:43:59 IST" duration-ms="7703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:43:59 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:44:03 IST" duration-ms="3437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[CPP]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:03 IST" name="close" finished-at="2023-09-06T13:44:08 IST" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:08 IST" name="beforeMethod" finished-at="2023-09-06T13:44:15 IST" duration-ms="6980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:15 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:44:19 IST" duration-ms="3597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[pritika12@linkedin.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[324]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:19 IST" name="close" finished-at="2023-09-06T13:44:24 IST" duration-ms="5395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:24 IST" name="beforeMethod" finished-at="2023-09-06T13:44:30 IST" duration-ms="6388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:30 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:44:34 IST" duration-ms="3381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2424]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:34 IST" name="close" finished-at="2023-09-06T13:44:39 IST" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:39 IST" name="beforeMethod" finished-at="2023-09-06T13:44:46 IST" duration-ms="6893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="want_to_be_vl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:46 IST" name="want_to_be_vl" data-provider="want_tobe_vl" finished-at="2023-09-06T13:44:50 IST" duration-ms="3713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika 3243242]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yeola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[CPP]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[tika12@linkedin.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[frrr3r3]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- want_to_be_vl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.VolunteerPage@6c0d7c83]" started-at="2023-09-06T13:44:50 IST" name="close" finished-at="2023-09-06T13:44:55 IST" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.VolunteerPage -->
+      <class name="netwin.WebMathNew.ContactPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:51:45 IST" name="beforeMethod" finished-at="2023-09-06T13:51:52 IST" duration-ms="6872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:51:52 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:51:54 IST" duration-ms="1597" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at netwin.WebMathNew.ContactPage.contact(ContactPage.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:51:54 IST" name="close" finished-at="2023-09-06T13:51:59 IST" duration-ms="5436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:51:59 IST" name="beforeMethod" finished-at="2023-09-06T13:52:06 IST" duration-ms="6857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:06 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:52:09 IST" duration-ms="2764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika Somase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:09 IST" name="close" finished-at="2023-09-06T13:52:14 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:14 IST" name="beforeMethod" finished-at="2023-09-06T13:52:21 IST" duration-ms="6801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:21 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:52:23 IST" duration-ms="2411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya Somase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hiii]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:23 IST" name="close" finished-at="2023-09-06T13:52:29 IST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:29 IST" name="beforeMethod" finished-at="2023-09-06T13:52:36 IST" duration-ms="6898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:36 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:52:38 IST" duration-ms="2116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya Gade]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:38 IST" name="close" finished-at="2023-09-06T13:52:43 IST" duration-ms="5412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:43 IST" name="beforeMethod" finished-at="2023-09-06T13:52:49 IST" duration-ms="6282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:49 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:52:52 IST" duration-ms="2515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hiii]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:52 IST" name="close" finished-at="2023-09-06T13:52:57 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:52:57 IST" name="beforeMethod" finished-at="2023-09-06T13:53:04 IST" duration-ms="6775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:04 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:53:06 IST" duration-ms="2088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:06 IST" name="close" finished-at="2023-09-06T13:53:12 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:12 IST" name="beforeMethod" finished-at="2023-09-06T13:53:20 IST" duration-ms="8065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:20 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:53:22 IST" duration-ms="2366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35435464]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pritika@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:22 IST" name="close" finished-at="2023-09-06T13:53:27 IST" duration-ms="5403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:27 IST" name="beforeMethod" finished-at="2023-09-06T13:53:34 IST" duration-ms="6813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:34 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:53:37 IST" duration-ms="2612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika Somase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:37 IST" name="close" finished-at="2023-09-06T13:53:42 IST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:42 IST" name="beforeMethod" finished-at="2023-09-06T13:53:49 IST" duration-ms="6270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:49 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:53:51 IST" duration-ms="2331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pritika Somase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:51 IST" name="close" finished-at="2023-09-06T13:53:56 IST" duration-ms="5375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:53:56 IST" name="beforeMethod" finished-at="2023-09-06T13:54:03 IST" duration-ms="6689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:03 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:54:05 IST" duration-ms="2166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:05 IST" name="close" finished-at="2023-09-06T13:54:11 IST" duration-ms="5388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:11 IST" name="beforeMethod" finished-at="2023-09-06T13:54:17 IST" duration-ms="6467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:17 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:54:19 IST" duration-ms="2238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:19 IST" name="close" finished-at="2023-09-06T13:54:25 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:25 IST" name="beforeMethod" finished-at="2023-09-06T13:54:31 IST" duration-ms="6619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:31 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:54:33 IST" duration-ms="2204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[x234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:33 IST" name="close" finished-at="2023-09-06T13:54:39 IST" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:39 IST" name="beforeMethod" finished-at="2023-09-06T13:54:45 IST" duration-ms="6675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:45 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:54:48 IST" duration-ms="2333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tret4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4545t]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:48 IST" name="close" finished-at="2023-09-06T13:54:53 IST" duration-ms="5459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:54:53 IST" name="beforeMethod" finished-at="2023-09-06T13:55:00 IST" duration-ms="6794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:55:00 IST" name="contact" data-provider="contact" finished-at="2023-09-06T13:55:02 IST" duration-ms="2056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ret]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.ContactPage@3b8f0a79]" started-at="2023-09-06T13:55:02 IST" name="close" finished-at="2023-09-06T13:55:08 IST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.ContactPage -->
+      <class name="netwin.WebMathNew.EventPage">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:netwin.WebMathNew.EventPage@3e74829]" started-at="2023-09-06T13:51:14 IST" name="beforeMethod" finished-at="2023-09-06T13:51:21 IST" duration-ms="6794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="event()[pri:0, instance:netwin.WebMathNew.EventPage@3e74829]" started-at="2023-09-06T13:51:21 IST" name="event" finished-at="2023-09-06T13:51:25 IST" duration-ms="4248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- event -->
+        <test-method is-config="true" signature="close()[pri:0, instance:netwin.WebMathNew.EventPage@3e74829]" started-at="2023-09-06T13:51:25 IST" name="close" finished-at="2023-09-06T13:51:30 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- netwin.WebMathNew.EventPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

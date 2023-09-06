@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	      <class name="netwin.WebMathNew.AppTest"/>
+	      <class name="netwin.WebMathNew.HomePage"/>
+	      <class name="netwin.WebMathNew.VolunteerPage"/>
+	      <class name="netwin.WebMathNew.StudentPage"/>
+	      <class name="netwin.WebMathNew.SkillsForSucessPage"/>
+	      <class name="netwin.WebMathNew.ResourcesPage"/> 
+	      <class name="netwin.WebMathNew.EventPage"/>
+	      <class name="netwin.WebMathNew.AboutUsPage"/>
+	      <class name="netwin.WebMathNew.ContactPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

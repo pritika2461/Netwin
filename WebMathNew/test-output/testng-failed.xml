@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="netwin.WebMathNew.ContactPage">
+        <methods>
+          <include name="close"/>
+          <include name="beforeMethod"/>
+          <include name="contact" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- netwin.WebMathNew.ContactPage -->
+      <class name="netwin.WebMathNew.StudentPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="stud_find_tutor" invocation-numbers="0"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- netwin.WebMathNew.StudentPage -->
+      <class name="netwin.WebMathNew.HomePage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="searchInput" invocation-numbers="0"/>
+          <include name="sponsers"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- netwin.WebMathNew.HomePage -->
+      <class name="netwin.WebMathNew.VolunteerPage">
+        <methods>
+          <include name="close"/>
+          <include name="want_to_be_vl" invocation-numbers="0"/>
+          <include name="volunteer_info"/>
+          <include name="volunteer_training" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- netwin.WebMathNew.VolunteerPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
